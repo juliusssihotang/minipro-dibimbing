@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <link
+      rel="preload"
+      href="asset/Roboto-Regular.ttf"
+      as="font"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="dist/aos.css" />
+  </head>
+  <body class="">
+    <nav class="fixed top-0 left-0 z-50 w-full">
+      <div
+        class="flex items-center justify-between w-7/12 p-2 mx-auto mt-4 border-2 rounded-full shadow-xl bg-white/60 backdrop-blur-md"
+      >
+        <div class="flex-none ml-2 text-2xl font-bold">
+          <span class="text-orange-400">Cafe</span>in Rush
+        </div>
+        <div class="flex-1 px-40 xl:block md:hidden sm:hidden">
+          <ul class="flex gap-8 text-gray-600">
+            <li class="font-medium text-orange-400 hover:font-semibold">
+              <a href="#home">Home</a>
+            </li>
+            <li class="hover:text-gray-600 hover:font-semibold">
+              <a href="#services">Services</a>
+            </li>
+            <li class="hover:font-semibold hover:text-gray-600">
+              <a href="#menu">Menu</a>
+            </li>
+            <li class="hover:font-semibold hover:text-gray-600">
+              <a href="#brewer">Brewer</a>
+            </li>
+            <li class="hover:font-semibold hover:text-gray-600">
+              <a href="#about">About</a>
+            </li>
+          </ul>
+        </div>
+        <div class="font-bold">
+          <input
+            type="text"
+            placeholder="Search"
+            class="flex-none px-3 mr-2 text-base rounded-full bg-gray-100/70 lg:hidden xl:block md:hidden sm:hidden"
+          />
+          <img
+            src="img/menu.png"
+            class="max-h-[40px] xl:hidden md:block sm:block"
+            alt=""
+          />
+        </div>
+      </div>
+    </nav>
+
+    <section id="home" class="h-full py-36 md:bg-white">
+      <div class="grid w-8/12 gap-20 mx-auto md:grid-cols-3 sm:grid-cols-1">
+        <div class="my-auto md:col-span-2 sm:col-span-1">
+          <div
+            class="px-2 mb-2 font-bold text-gray-600 border-2 border-gray-600 rounded-full w-fit"
+            data-aos="fade-up"
+            data-aos-easing="ease-in-out"
+            data-aos-duration="800"
+          >
+            COFFEE EXPERIENCE CENTER
+          </div>
+          <div
+            class="text-8xl"
+            data-aos="fade-up"
+            data-aos-easing="ease-in-out"
+            data-aos-duration="1200"
+          >
+            CUSTOMIZED YOUR DRINK
+            <span class="font-bold text-gray-400">
+              AND HANDCRAFTED BEVERAGES</span
+            >
+          </div>
+          <div
+            class="mt-10"
+            data-aos="fade-up"
+            data-aos-easing="ease-in-out"
+            data-aos-duration="1500"
+          >
+            Discover the art of personalized indulgence with our customized
+            drinks and beverages. Tailor each sip to your taste with our
+            extensive selection of ingredients and flavor combinations, ensuring
+            every drink is a perfect match for your unique preferences.
+          </div>
+          <div
+            class="flex gap-3 mt-5"
+            data-aos="fade-up"
+            data-aos-easing="ease-in-out"
+            data-aos-duration="1800"
+          >
+            <button class="btn-utama">Get Offers</button>
+            <a class="my-auto underline hover:font-bold" href=""
+              >Know more about the coffee</a
+            >
+          </div>
+        </div>
+        <div
+          class="mx-auto"
+          data-aos="fade-up"
+          data-aos-easing="ease-in-out"
+          data-aos-duration="1200"
+        >
+          <img
+            src="img/img1.jpg"
+            class="rounded-t-full h-[750px] w-[400px] shadow-xl object-cover xl:block sm:hidden"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="services" name="services" class="w-8/12 py-20 mx-auto">
+      <div
+        class="text-center"
+        data-aos="fade-up"
+        data-aos-easing="ease-in-out"
+        data-aos-duration="800"
+      >
+        <div class="mx-auto text-5xl font-bold">
+          OUR BEST <span class="text-orange-400">SERVICES</span>
+        </div>
+        <p class="text-gray-500">We serve and act your daily cafeine needs.</p>
+      </div>
+
+      <div class="grid gap-10 lg:grid-cols-3 md:grid-cols-1">
+        <div
+          class="p-8"
+          data-aos="fade-up"
+          data-aos-easing="ease-in-out"
+          data-aos-duration="800"
+        >
+          <img src="img/services1.png" class="py-4 max-h-24" alt="" />
+          <div class="text-3xl font-bold">Fast and Hot</div>
+          <p class="text-gray-500">
+            Get ready to ignite your senses with Fast and Hot! Whether you're
+            racing against the clock or craving something sizzling, we've got
+            you covered.
+          </p>
+        </div>
+        <div
+          class="p-8"
+          data-aos="fade-up"
+          data-aos-easing="ease-in-out"
+          data-aos-duration="900"
+        >
+          <img src="img/services2.png" class="py-4 max-h-24" alt="" />
+          <div class="text-3xl font-bold">Fresh Beans</div>
+          <p class="text-gray-500">
+            Our fresh beans are meticulously selected for their rich, vibrant
+            flavors and aromatic profiles, ensuring that each cup delivers a
+            bold and invigorating experience.
+          </p>
+        </div>
+        <div
+          class="p-8"
+          data-aos="fade-up"
+          data-aos-easing="ease-in-out"
+          data-aos-duration="1000"
+        >
+          <img src="img/services3.png" class="py-4 max-h-24" alt="" />
+          <div class="text-3xl font-bold">Expert Manchines</div>
+          <p class="text-gray-500">
+            Unleash the power of precision with our expert machine, engineered
+            to redefine excellence in performance and reliability.
+          </p>
+        </div>
+        <div
+          class="p-8"
+          data-aos="fade-up"
+          data-aos-easing="ease-in-out"
+          data-aos-duration="1200"
+        >
+          <img src="img/services4.png" class="py-4 max-h-24" alt="" />
+          <div class="text-3xl font-bold">Endless Serving</div>
+          <p class="text-gray-500">
+            Experience ultimate convenience with our 24-hour service, designed
+            to fit seamlessly into your busy lifestyle.
+          </p>
+        </div>
+        <div
+          class="p-8"
+          data-aos="fade-up"
+          data-aos-easing="ease-in-out"
+          data-aos-duration="1300"
+        >
+          <img src="img/services5.png" class="py-4 max-h-24" alt="" />
+          <div class="text-3xl font-bold">Part of Green</div>
+          <p class="text-gray-500">
+            Embrace eco-friendly practices that prioritize the health of our
+            planet, from reducing waste and conserving resources to supporting
+            renewable energy and sustainable products.
+          </p>
+        </div>
+        <div
+          class="p-8"
+          data-aos="fade-up"
+          data-aos-easing="ease-in-out"
+          data-aos-duration="1400"
+        >
+          <img src="img/services6.png" class="py-4 max-h-24" alt="" />
+          <div class="text-3xl font-bold">Comfy Place</div>
+          <p class="text-gray-500">
+            Step into a haven of relaxation and comfort with our cozy, inviting
+            space designed just for you.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="menu" class="py-24">
+      <div class="bg-white">
+        <div
+          class="max-w-2xl px-4 py-16 mx-auto sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8"
+        >
+          <h2
+            class="text-2xl font-bold tracking-tight text-gray-900"
+            data-aos="fade-up"
+            data-aos-easing="ease-in-out"
+            data-aos-duration="800"
+          >
+            We serve the best than your country can offers
+          </h2>
+
+          <div
+            class="grid grid-cols-1 mt-6 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8"
+          >
+            <div
+              class="relative group"
+              data-aos="fade-up"
+              data-aos-easing="ease-in-out"
+              data-aos-duration="1000"
+            >
+              <div
+                class="w-full bg-gray-200 rounded-md aspect-h-1 aspect-w-1 lg:aspect-none lg:h-80"
+              >
+                <img
+                  src="img/prod1.jpg"
+                  alt="Front of men&#039;s Basic Tee in black."
+                  class="object-cover object-center w-full h-full rounded-md lg:h-full lg:w-full"
+                />
+              </div>
+              <div class="flex justify-between mt-4">
+                <div>
+                  <h3 class="text-sm text-gray-700">
+                    <a href="#">
+                      <span aria-hidden="true" class="absolute inset-0"></span>
+                      Freshly Brewed
+                    </a>
+                  </h3>
+                  <p class="mt-1 text-sm text-gray-500">
+                    Artfully roasted and brewed
+                  </p>
+                </div>
+                <p class="text-sm font-medium text-gray-900">IDR 45,000</p>
+              </div>
+              <div>
+                <button class="w-full p-0 m-2 btn-utama">Order</button>
+              </div>
+            </div>
+
+            <div
+              class="relative group"
+              data-aos="fade-up"
+              data-aos-easing="ease-in-out"
+              data-aos-duration="1200"
+            >
+              <div
+                class="w-full bg-gray-200 rounded-md aspect-h-1 aspect-w-1 lg:aspect-none lg:h-80"
+              >
+                <img
+                  src="img/prod2.jpg"
+                  alt="Front of men&#039;s Basic Tee in black."
+                  class="object-cover object-center w-full h-full rounded-md lg:h-full lg:w-full"
+                />
+              </div>
+              <div class="flex justify-between mt-4">
+                <div>
+                  <h3 class="text-sm text-gray-700">
+                    <a href="#">
+                      <span aria-hidden="true" class="absolute inset-0"></span>
+                      Misto
+                    </a>
+                  </h3>
+                  <p class="mt-1 text-sm text-gray-500">Frothy steamed milk.</p>
+                </div>
+                <p class="text-sm font-medium text-gray-900">IDR 65,000</p>
+              </div>
+              <div>
+                <button class="w-full p-0 m-2 btn-utama">Order</button>
+              </div>
+            </div>
+
+            <div
+              class="relative group"
+              data-aos="fade-up"
+              data-aos-easing="ease-in-out"
+              data-aos-duration="1400"
+            >
+              <div
+                class="w-full bg-gray-200 rounded-md aspect-h-1 aspect-w-1 lg:aspect-none lg:h-80"
+              >
+                <img
+                  src="img/prod3.jpg"
+                  alt="Front of men&#039;s Basic Tee in black."
+                  class="object-cover object-center w-full h-full rounded-md lg:h-full lg:w-full"
+                />
+              </div>
+              <div class="flex justify-between mt-4">
+                <div>
+                  <h3 class="text-sm text-gray-700">
+                    <a href="#">
+                      <span aria-hidden="true" class="absolute inset-0"></span>
+                      Cold Brew
+                    </a>
+                  </h3>
+                  <p class="mt-1 text-sm text-gray-500">
+                    Slow-steeped and smooth
+                  </p>
+                </div>
+                <p class="text-sm font-medium text-gray-900">IDR 75,000</p>
+              </div>
+              <div>
+                <button class="w-full p-0 m-2 btn-utama">Order</button>
+              </div>
+            </div>
+
+            <div
+              class="relative group"
+              data-aos="fade-up"
+              data-aos-easing="ease-in-out"
+              data-aos-duration="1600"
+            >
+              <div
+                class="w-full bg-gray-200 rounded-md aspect-h-1 aspect-w-1 lg:aspect-none lg:h-80"
+              >
+                <img
+                  src="img/prod4.jpg"
+                  alt="Front of men&#039;s Basic Tee in black."
+                  class="object-cover object-center w-full h-full rounded-md lg:h-full lg:w-full"
+                />
+              </div>
+              <div class="flex justify-between mt-4">
+                <div>
+                  <h3 class="text-sm text-gray-700">
+                    <a href="#">
+                      <span aria-hidden="true" class="absolute inset-0"></span>
+                      Bakery
+                    </a>
+                  </h3>
+                  <p class="mt-1 text-sm text-gray-500">Baked Goods</p>
+                </div>
+                <p class="text-sm font-medium text-gray-900">IDR 85,000</p>
+              </div>
+              <div>
+                <button class="w-full p-0 m-2 btn-utama">Order</button>
+              </div>
+            </div>
+
+            <div
+              class="relative group"
+              data-aos="fade-up"
+              data-aos-easing="ease-in-out"
+              data-aos-duration="1800"
+            >
+              <div
+                class="w-full bg-gray-200 rounded-md aspect-h-1 aspect-w-1 lg:aspect-none lg:h-80"
+              >
+                <img
+                  src="img/prod6.jpg"
+                  alt="Front of men&#039;s Basic Tee in black."
+                  class="object-cover object-center w-full h-full rounded-md lg:h-full lg:w-full"
+                />
+              </div>
+              <div class="flex justify-between mt-4">
+                <div>
+                  <h3 class="text-sm text-gray-700">
+                    <a href="#">
+                      <span aria-hidden="true" class="absolute inset-0"></span>
+                      Srikaya Swirl Danish
+                    </a>
+                  </h3>
+                  <p class="mt-1 text-sm text-gray-500">Classic swirl</p>
+                </div>
+                <p class="text-sm font-medium text-gray-900">IDR 55,000</p>
+              </div>
+              <div>
+                <button class="w-full p-0 m-2 btn-utama">Order</button>
+              </div>
+            </div>
+
+            <div
+              class="relative group"
+              data-aos="fade-up"
+              data-aos-easing="ease-in-out"
+              data-aos-duration="2000"
+            >
+              <div
+                class="w-full bg-gray-200 rounded-md aspect-h-1 aspect-w-1 lg:aspect-none lg:h-80"
+              >
+                <img
+                  src="img/prod5.jpg"
+                  alt="Front of men&#039;s Basic Tee in black."
+                  class="object-cover object-center w-full h-full rounded-md lg:h-full lg:w-full"
+                />
+              </div>
+              <div class="flex justify-between mt-4">
+                <div>
+                  <h3 class="text-sm text-gray-700">
+                    <a href="#">
+                      <span aria-hidden="true" class="absolute inset-0"></span>
+                      Bagel Bites
+                    </a>
+                  </h3>
+                  <p class="mt-1 text-sm text-gray-500">cheese melt filling</p>
+                </div>
+                <p class="text-sm font-medium text-gray-900">IDR 45,000</p>
+              </div>
+              <div>
+                <button class="w-full p-0 m-2 btn-utama">Order</button>
+              </div>
+            </div>
+
+            <div
+              class="relative group"
+              data-aos="fade-up"
+              data-aos-easing="ease-in-out"
+              data-aos-duration="2200"
+            >
+              <div
+                class="w-full bg-gray-200 rounded-md aspect-h-1 aspect-w-1 lg:aspect-none lg:h-80"
+              >
+                <img
+                  src="img/prod7.jpg"
+                  alt="Front of men&#039;s Basic Tee in black."
+                  class="object-cover object-center w-full h-full rounded-md lg:h-full lg:w-full"
+                />
+              </div>
+              <div class="flex justify-between mt-4">
+                <div>
+                  <h3 class="text-sm text-gray-700">
+                    <a href="#">
+                      <span aria-hidden="true" class="absolute inset-0"></span>
+                      Tuna Puff
+                    </a>
+                  </h3>
+                  <p class="mt-1 text-sm text-gray-500">Flaky savory tuna</p>
+                </div>
+                <p class="text-sm font-medium text-gray-900">IDR 99,000</p>
+              </div>
+              <div>
+                <button class="w-full p-0 m-2 btn-utama">Order</button>
+              </div>
+            </div>
+
+            <div
+              class="relative group"
+              data-aos="fade-up"
+              data-aos-easing="ease-in-out"
+              data-aos-duration="2400"
+            >
+              <div
+                class="w-full bg-gray-200 rounded-md aspect-h-1 aspect-w-1 lg:aspect-none lg:h-80"
+              >
+                <img
+                  src="img/prod8.jpg"
+                  alt="Front of men&#039;s Basic Tee in black."
+                  class="object-cover object-center w-full h-full rounded-md lg:h-full lg:w-full"
+                />
+              </div>
+              <div class="flex justify-between mt-4">
+                <div>
+                  <h3 class="text-sm text-gray-700">
+                    <a href="#">
+                      <span aria-hidden="true" class="absolute inset-0"></span>
+                      Sumatra Choco Eclair
+                    </a>
+                  </h3>
+                  <p class="mt-1 text-sm text-gray-500">Choux pastry</p>
+                </div>
+                <p class="text-sm font-medium text-gray-900">IDR 55,000</p>
+              </div>
+              <div>
+                <button class="w-full p-0 m-2 btn-utama">Order</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="brewer" class="py-36">
+      <div
+        class="text-center mb-14"
+        data-aos="fade-up"
+        data-aos-easing="ease-in-out"
+        data-aos-duration="800"
+      >
+        <div class="mx-auto text-5xl font-bold">
+          Meet Our <span class="text-orange-400">Profesionals</span>
+        </div>
+        <p class="text-gray-500">When idealism met skills</p>
+      </div>
+      <div class="grid w-8/12 gap-20 mx-auto md:grid-cols-3 sm:grid-cols-1">
+        <div
+          class="items-center p-5 text-center transition-transform scale-95 border-2 rounded-xl hover:scale-100"
+          data-aos="fade-right"
+          data-aos-easing="ease-in-out"
+          data-aos-duration="1000"
+        >
+          <img
+            src="img/person1.jpg"
+            alt=""
+            class="w-[300px] h-[300px] mx-auto rounded-full object-cover"
+          />
+          <div class="mt-5 text-2xl font-bold">Fandhi Albhino</div>
+          <p class="text-gray-400">Senior Brewer</p>
+          <div class="flex items-center justify-center mt-5">
+            <a href="https://instagram.com"
+              ><img src="img/instagram.svg" alt="" class="w-6 h-6"
+            /></a>
+            <a href="https://linkedin.com"
+              ><img src="img/linkedin.svg" alt="" class="w-6 h-6"
+            /></a>
+          </div>
+        </div>
+        <div
+          class="items-center p-5 text-center transition-transform scale-95 border-2 rounded-xl hover:scale-100"
+          data-aos="fade-up"
+          data-aos-easing="ease-in-out"
+          data-aos-duration="1200"
+        >
+          <img
+            src="img/person2.jpg"
+            alt=""
+            class="w-[300px] h-[300px] mx-auto rounded-full object-cover"
+          />
+          <div class="mt-5 text-2xl font-bold">Jacob Ghondrong</div>
+          <p class="text-gray-400">Senior Baker</p>
+          <div class="flex items-center justify-center mt-5">
+            <a href="https://instagram.com"
+              ><img src="img/instagram.svg" alt="" class="w-6 h-6"
+            /></a>
+            <a href="https://linkedin.com"
+              ><img src="img/linkedin.svg" alt="" class="w-6 h-6"
+            /></a>
+          </div>
+        </div>
+        <div
+          class="items-center p-5 text-center transition-transform scale-95 border-2 rounded-xl hover:scale-100"
+          data-aos="fade-left"
+          data-aos-easing="ease-in-out"
+          data-aos-duration="1200"
+        >
+          <img
+            src="img/person3.jpg"
+            alt=""
+            class="w-[300px] h-[300px] mx-auto rounded-full object-cover"
+          />
+          <div class="mt-5 text-2xl font-bold">Alice Paint</div>
+          <p class="text-gray-400">Flavour Expert</p>
+          <div class="flex items-center justify-center mt-5">
+            <a href="https://instagram.com"
+              ><img src="img/instagram.svg" alt="" class="w-6 h-6"
+            /></a>
+            <a href="https://linkedin.com"
+              ><img src="img/linkedin.svg" alt="" class="w-6 h-6"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-orange-500">
+      <div class="items-center w-8/12 py-20 mx-auto">
+        <div class="text-3xl font-bold text-center">Get in touch</div>
+        <p class="text-center text-gray-700">
+          Contact us now and scale your cafeine
+        </p>
+        <div class="grid mt-24 md:grid-cols-4 sm:grid-cols-1">
+          <div class="col-span-3">
+            <div class="flex gap-2 mb-10">
+              <img
+                src="img/location.png"
+                class="max-w-[20px] max-h-[20px]"
+                alt=""
+              />
+              <p>Jl. Gajah Mada No 02 Kuala Pembuang (74212)</p>
+            </div>
+            <div class="flex gap-2 mb-10">
+              <img
+                src="img/telephone.png"
+                class="max-w-[20px] max-h-[20px]"
+                alt=""
+              />
+              <p>(+62) 853 1112</p>
+            </div>
+            <div class="flex gap-2 mb-10">
+              <img
+                src="img/mail.png"
+                class="max-w-[20px] max-h-[20px]"
+                alt=""
+              />
+              <p>msp.juliussihotang@gmail.com</p>
+            </div>
+            <div class="font-bold">Follow us</div>
+            <div class="flex gap-5 mt-4">
+              <div class="p-2 border-2 border-gray-800 rounded-full">
+                <a href=""
+                  ><img src="img/instagram.svg" class="h-[30px]" alt=""
+                /></a>
+              </div>
+              <div class="p-2 border-2 border-gray-800 rounded-full">
+                <a href=""
+                  ><img src="img/facebook.png" class="h-[30px]" alt=""
+                /></a>
+              </div>
+              <div class="p-2 border-2 border-gray-800 rounded-full">
+                <a href=""
+                  ><img src="img/twitter.png" class="h-[30px]" alt=""
+                /></a>
+              </div>
+              <div class="p-2 border-2 border-gray-800 rounded-full">
+                <a href=""
+                  ><img src="img/tik-tok.png" class="h-[30px]" alt=""
+                /></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-span-1">
+            <p class="font-bold">Message us!</p>
+            <label class="flex items-center gap-4 my-2 input">
+              <input type="text" class="grow" placeholder="Name" />
+            </label>
+            <label class="flex items-center gap-2 my-2 input">
+              <input type="text" class="grow" placeholder="Email" />
+            </label>
+            <label class="flex items-center gap-2 my-2 input">
+              <input type="text" class="grow" placeholder="Message.." />
+            </label>
+            <button class="btn-utama">Send</button>
+          </div>
+        </div>
+      </div>
+      <div class="py-24 text-center text-gray-800">
+        2024 - <span class="font-bold">Julius Sihotang</span> | dibimbing. All
+        right reserved.
+      </div>
+    </footer>
+    <script src="dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
